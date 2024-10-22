@@ -1,4 +1,5 @@
-export interface category{
-  id: string | number
+import { BaseModel } from "../base.model";
+
+export interface category extends BaseModel {
   name: string
 }
