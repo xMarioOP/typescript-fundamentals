@@ -12,15 +12,15 @@ const fail = (message: string) => {
 const example = (input: unknown) => {
   if (typeof input === "string") {
     return "yes"
-  }else if(Array.isArray(input)){
+  } else if (Array.isArray(input)) {
     return "Is array"
-  }else{
+  } else {
     return fail("not mach")
   }
 }
 
 console.log(example("hi"));
-console.log(example([1,2,3]));
+console.log(example([1, 2, 3]));
 console.log(example(456));
 console.log(example("hi after fail"));
 
