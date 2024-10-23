@@ -28,8 +28,6 @@ This project contains the following TypeScript files:
 
 This project was developed as part of the **Course: TypeScript - Advanced Types and Functions** on Platzi.
 
----
-
 ### 🔗 [Check out the course here!](https://platzi.com/cursos/typescript-tipos-avanzados/)
 
 ---
